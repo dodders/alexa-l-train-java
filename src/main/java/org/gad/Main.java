@@ -1,9 +1,11 @@
 package org.gad;
 
+import com.google.protobuf.CodedOutputStream;
 import com.google.transit.realtime.GtfsRealtime;
 
-import java.io.IOException;
+import java.io.*;
 import java.net.URL;
+import java.nio.file.Paths;
 
 public class Main {
 
@@ -18,10 +20,20 @@ public class Main {
         System.out.println("running...");
         URL url = new URL(address);
         GtfsRealtime.FeedMessage feed = GtfsRealtime.FeedMessage.parseFrom(url.openStream());
-        for (GtfsRealtime.FeedEntity entity : feed.getEntityList()) {
-            if (entity.hasTripUpdate()) {
-                System.out.println(entity.getTripUpdate());
-            }
-        }
+//        File f = new File("api-coded-output");
+//        CodedOutputStream cos = CodedOutputStream.newInstance(new FileOutputStream(f));
+//        feed.writeTo(cos);
+        byte[] flatArray = new byte[feed.getSerializedSize()];
+        CodedOutputStream cos = CodedOutputStream.newInstance(flatArray);
+        feed.writeTo(cos);
+        ByteArrayOutputStream bos = new ByteArrayOutputStream();
+        bos.write(flatArray, 0, flatArray.length);
+        OutputStream os = new FileOutputStream(new File("api-coded-output2"));
+        bos.writeTo(os);
+//        for (GtfsRealtime.FeedEntity entity : feed.getEntityList()) {
+//            if (entity.hasTripUpdate()) {
+//                System.out.println(entity.getTripUpdate());
+//            }
+//        }
     }
 }
