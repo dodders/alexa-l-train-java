@@ -18,8 +18,8 @@ public class TestTimeCalcs {
 
     @Test
     public void testCalcs() {
-        //3/10/2018 2:50pm EST.
-        LocalDateTime ldt = LocalDateTime.ofEpochSecond(1520711400, 0, ZoneOffset.of("-5"));
+        //3/10/2018 2:50pm UTC.
+        LocalDateTime ldt = LocalDateTime.ofEpochSecond(1520711400, 0, ZoneOffset.UTC);
         List<LocalDateTime> trainTimes = TestTrainTimes.getTimes();
         List<Long> diffs = calcs.getTimeDiffs(ldt, trainTimes);
         log.info("curr time:" + ldt.toString());

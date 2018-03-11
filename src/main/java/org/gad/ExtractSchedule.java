@@ -5,6 +5,7 @@ import com.google.transit.realtime.GtfsRealtime;
 
 import java.io.*;
 import java.net.URL;
+import java.net.URLConnection;
 import java.nio.charset.Charset;
 import java.nio.file.*;
 
@@ -20,7 +21,9 @@ public class ExtractSchedule {
     private void go() throws IOException {
         System.out.println("running...");
         URL url = new URL(address);
-        GtfsRealtime.FeedMessage feed = GtfsRealtime.FeedMessage.parseFrom(url.openStream());
+        InputStream is = url.openStream();
+        GtfsRealtime.FeedMessage feed = GtfsRealtime.FeedMessage.parseFrom(is);
+        is.close();
         byte[] flatArray = new byte[feed.getSerializedSize()];
         CodedOutputStream cos = CodedOutputStream.newInstance(flatArray);
         feed.writeTo(cos);

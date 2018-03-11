@@ -3,6 +3,7 @@ package com.gad;
 import com.google.protobuf.CodedInputStream;
 import com.google.transit.realtime.GtfsRealtime;
 import org.gad.FeedMessageHandler;
+import org.gad.MyContext;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -10,10 +11,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.time.Duration;
 import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.time.ZoneOffset;
 import java.time.temporal.ChronoUnit;
 import java.time.temporal.TemporalField;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -27,9 +30,11 @@ public class FeedMessageHandlerTest {
 
     @Test
     public void testGetTimes() {
-        List<LocalDateTime> expected = TestTrainTimes.getTimes();
+        List<Long> expected = Arrays.asList(new Long[]{Long.valueOf(4), Long.valueOf(11), Long.valueOf(13), Long.valueOf(18), Long.valueOf(24)});
         FeedMessageHandler fmh = new FeedMessageHandler();
-        List<LocalDateTime> ret = fmh.getArrivalTimes(msg, stop);
+        //curr time is 2018/3/10 19:50:00
+        LocalDateTime currTime = LocalDateTime.ofEpochSecond(1520711400, 0, ZoneOffset.UTC);
+        List<Long> ret = fmh.getArrivalTimes(msg, currTime, stop, new MyContext());
         assertEquals(expected, ret);
     }
 

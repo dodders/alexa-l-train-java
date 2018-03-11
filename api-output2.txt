@@ -1,0 +1,4080 @@
+trip {
+  trip_id: "054200_L..S"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0902 8AV/RPY\020\001\030\003"
+}
+stop_time_update {
+  arrival {
+    time: 1520775615
+  }
+  departure {
+    time: 1520775645
+  }
+  stop_id: "L28S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520775675
+  }
+  stop_id: "L29S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+
+trip {
+  trip_id: "054500_L..N"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0905 RPY/8AV\020\001\030\001"
+}
+stop_time_update {
+  arrival {
+    time: 1520775581
+  }
+  departure {
+    time: 1520775611
+  }
+  stop_id: "L02N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775731
+  }
+  stop_id: "L01N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+
+trip {
+  trip_id: "055000_L..S"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0910 8AV/RPY\020\001\030\003"
+}
+stop_time_update {
+  arrival {
+    time: 1520775564
+  }
+  departure {
+    time: 1520775594
+  }
+  stop_id: "L22S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520775625
+  }
+  departure {
+    time: 1520775655
+  }
+  stop_id: "L24S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520775715
+  }
+  departure {
+    time: 1520775745
+  }
+  stop_id: "L25S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520775775
+  }
+  departure {
+    time: 1520775805
+  }
+  stop_id: "L26S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520775865
+  }
+  departure {
+    time: 1520775895
+  }
+  stop_id: "L27S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520775985
+  }
+  departure {
+    time: 1520776015
+  }
+  stop_id: "L28S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776045
+  }
+  stop_id: "L29S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+
+trip {
+  trip_id: "055100_L..N"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0911 RPY/8AV\020\001\030\001"
+}
+stop_time_update {
+  arrival {
+    time: 1520775613
+  }
+  departure {
+    time: 1520775643
+  }
+  stop_id: "L08N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775853
+  }
+  departure {
+    time: 1520775883
+  }
+  stop_id: "L06N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775913
+  }
+  departure {
+    time: 1520775943
+  }
+  stop_id: "L05N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776003
+  }
+  departure {
+    time: 1520776033
+  }
+  stop_id: "L03N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776093
+  }
+  departure {
+    time: 1520776123
+  }
+  stop_id: "L02N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776243
+  }
+  stop_id: "L01N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+
+trip {
+  trip_id: "055600_L..S"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0916 8AV/RPY\020\001\030\003"
+}
+stop_time_update {
+  arrival {
+    time: 1520775631
+  }
+  departure {
+    time: 1520775661
+  }
+  stop_id: "L16S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520775721
+  }
+  departure {
+    time: 1520775751
+  }
+  stop_id: "L17S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520775811
+  }
+  departure {
+    time: 1520775841
+  }
+  stop_id: "L19S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520775961
+  }
+  departure {
+    time: 1520775991
+  }
+  stop_id: "L20S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776051
+  }
+  departure {
+    time: 1520776081
+  }
+  stop_id: "L21S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776111
+  }
+  departure {
+    time: 1520776141
+  }
+  stop_id: "L22S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776171
+  }
+  departure {
+    time: 1520776201
+  }
+  stop_id: "L24S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776261
+  }
+  departure {
+    time: 1520776291
+  }
+  stop_id: "L25S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776321
+  }
+  departure {
+    time: 1520776351
+  }
+  stop_id: "L26S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776411
+  }
+  departure {
+    time: 1520776441
+  }
+  stop_id: "L27S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776531
+  }
+  departure {
+    time: 1520776561
+  }
+  stop_id: "L28S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776591
+  }
+  stop_id: "L29S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+
+trip {
+  trip_id: "055700_L..N"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0917 RPY/8AV\020\001\030\001"
+}
+stop_time_update {
+  arrival {
+    time: 1520775583
+  }
+  departure {
+    time: 1520775613
+  }
+  stop_id: "L15N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775696
+  }
+  departure {
+    time: 1520775726
+  }
+  stop_id: "L14N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775816
+  }
+  departure {
+    time: 1520775846
+  }
+  stop_id: "L13N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775876
+  }
+  departure {
+    time: 1520775906
+  }
+  stop_id: "L12N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775966
+  }
+  departure {
+    time: 1520775996
+  }
+  stop_id: "L11N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776026
+  }
+  departure {
+    time: 1520776056
+  }
+  stop_id: "L10N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776116
+  }
+  departure {
+    time: 1520776146
+  }
+  stop_id: "L08N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776356
+  }
+  departure {
+    time: 1520776386
+  }
+  stop_id: "L06N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776416
+  }
+  departure {
+    time: 1520776446
+  }
+  stop_id: "L05N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776506
+  }
+  departure {
+    time: 1520776536
+  }
+  stop_id: "L03N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776596
+  }
+  departure {
+    time: 1520776626
+  }
+  stop_id: "L02N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776746
+  }
+  stop_id: "L01N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+
+trip {
+  trip_id: "056200_L..S"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0922 8AV/RPY\020\001\030\003"
+}
+stop_time_update {
+  arrival {
+    time: 1520775643
+  }
+  departure {
+    time: 1520775673
+  }
+  stop_id: "L14S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520775763
+  }
+  departure {
+    time: 1520775793
+  }
+  stop_id: "L15S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520775853
+  }
+  departure {
+    time: 1520775883
+  }
+  stop_id: "L16S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520775943
+  }
+  departure {
+    time: 1520775973
+  }
+  stop_id: "L17S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776033
+  }
+  departure {
+    time: 1520776063
+  }
+  stop_id: "L19S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776183
+  }
+  departure {
+    time: 1520776213
+  }
+  stop_id: "L20S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776273
+  }
+  departure {
+    time: 1520776303
+  }
+  stop_id: "L21S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776333
+  }
+  departure {
+    time: 1520776363
+  }
+  stop_id: "L22S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776393
+  }
+  departure {
+    time: 1520776423
+  }
+  stop_id: "L24S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776483
+  }
+  departure {
+    time: 1520776513
+  }
+  stop_id: "L25S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776543
+  }
+  departure {
+    time: 1520776573
+  }
+  stop_id: "L26S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776633
+  }
+  departure {
+    time: 1520776663
+  }
+  stop_id: "L27S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776753
+  }
+  departure {
+    time: 1520776783
+  }
+  stop_id: "L28S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776813
+  }
+  stop_id: "L29S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+
+trip {
+  trip_id: "056300_L..N"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0923 RPY/8AV\020\001\030\001"
+}
+stop_time_update {
+  arrival {
+    time: 1520775629
+  }
+  departure {
+    time: 1520775659
+  }
+  stop_id: "L17N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775719
+  }
+  departure {
+    time: 1520775749
+  }
+  stop_id: "L16N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775809
+  }
+  departure {
+    time: 1520775839
+  }
+  stop_id: "L15N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775929
+  }
+  departure {
+    time: 1520775959
+  }
+  stop_id: "L14N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776049
+  }
+  departure {
+    time: 1520776079
+  }
+  stop_id: "L13N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776109
+  }
+  departure {
+    time: 1520776139
+  }
+  stop_id: "L12N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776199
+  }
+  departure {
+    time: 1520776229
+  }
+  stop_id: "L11N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776259
+  }
+  departure {
+    time: 1520776289
+  }
+  stop_id: "L10N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776349
+  }
+  departure {
+    time: 1520776379
+  }
+  stop_id: "L08N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776589
+  }
+  departure {
+    time: 1520776619
+  }
+  stop_id: "L06N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776649
+  }
+  departure {
+    time: 1520776679
+  }
+  stop_id: "L05N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776739
+  }
+  departure {
+    time: 1520776769
+  }
+  stop_id: "L03N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776829
+  }
+  departure {
+    time: 1520776859
+  }
+  stop_id: "L02N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776979
+  }
+  stop_id: "L01N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+
+trip {
+  trip_id: "056900_L..N"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0929 RPY/8AV\020\001\030\001"
+}
+stop_time_update {
+  arrival {
+    time: 1520775618
+  }
+  departure {
+    time: 1520775648
+  }
+  stop_id: "L20N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775768
+  }
+  departure {
+    time: 1520775798
+  }
+  stop_id: "L19N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775858
+  }
+  departure {
+    time: 1520775888
+  }
+  stop_id: "L17N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775948
+  }
+  departure {
+    time: 1520775978
+  }
+  stop_id: "L16N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776038
+  }
+  departure {
+    time: 1520776068
+  }
+  stop_id: "L15N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776158
+  }
+  departure {
+    time: 1520776188
+  }
+  stop_id: "L14N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776278
+  }
+  departure {
+    time: 1520776308
+  }
+  stop_id: "L13N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776338
+  }
+  departure {
+    time: 1520776368
+  }
+  stop_id: "L12N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776428
+  }
+  departure {
+    time: 1520776458
+  }
+  stop_id: "L11N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776488
+  }
+  departure {
+    time: 1520776518
+  }
+  stop_id: "L10N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776578
+  }
+  departure {
+    time: 1520776608
+  }
+  stop_id: "L08N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776818
+  }
+  departure {
+    time: 1520776848
+  }
+  stop_id: "L06N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776878
+  }
+  departure {
+    time: 1520776908
+  }
+  stop_id: "L05N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776968
+  }
+  departure {
+    time: 1520776998
+  }
+  stop_id: "L03N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777058
+  }
+  departure {
+    time: 1520777088
+  }
+  stop_id: "L02N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777208
+  }
+  stop_id: "L01N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+
+trip {
+  trip_id: "057400_L..S"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0934 8AV/RPY\020\001\030\003"
+}
+stop_time_update {
+  arrival {
+    time: 1520775758
+  }
+  departure {
+    time: 1520775788
+  }
+  stop_id: "L08S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520775878
+  }
+  departure {
+    time: 1520775908
+  }
+  stop_id: "L10S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520775938
+  }
+  departure {
+    time: 1520775968
+  }
+  stop_id: "L11S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776028
+  }
+  departure {
+    time: 1520776058
+  }
+  stop_id: "L12S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776088
+  }
+  departure {
+    time: 1520776118
+  }
+  stop_id: "L13S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776208
+  }
+  departure {
+    time: 1520776238
+  }
+  stop_id: "L14S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776328
+  }
+  departure {
+    time: 1520776358
+  }
+  stop_id: "L15S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776418
+  }
+  departure {
+    time: 1520776448
+  }
+  stop_id: "L16S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776508
+  }
+  departure {
+    time: 1520776538
+  }
+  stop_id: "L17S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776598
+  }
+  departure {
+    time: 1520776628
+  }
+  stop_id: "L19S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776748
+  }
+  departure {
+    time: 1520776778
+  }
+  stop_id: "L20S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776838
+  }
+  departure {
+    time: 1520776868
+  }
+  stop_id: "L21S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776898
+  }
+  departure {
+    time: 1520776928
+  }
+  stop_id: "L22S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776958
+  }
+  departure {
+    time: 1520776988
+  }
+  stop_id: "L24S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777048
+  }
+  departure {
+    time: 1520777078
+  }
+  stop_id: "L25S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777108
+  }
+  departure {
+    time: 1520777138
+  }
+  stop_id: "L26S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777198
+  }
+  departure {
+    time: 1520777228
+  }
+  stop_id: "L27S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777318
+  }
+  departure {
+    time: 1520777348
+  }
+  stop_id: "L28S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777378
+  }
+  stop_id: "L29S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+
+trip {
+  trip_id: "057500_L..N"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0935 RPY/8AV\020\001\030\001"
+}
+stop_time_update {
+  arrival {
+    time: 1520775638
+  }
+  departure {
+    time: 1520775668
+  }
+  stop_id: "L27N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775728
+  }
+  departure {
+    time: 1520775758
+  }
+  stop_id: "L26N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775818
+  }
+  departure {
+    time: 1520775848
+  }
+  stop_id: "L25N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775908
+  }
+  departure {
+    time: 1520775938
+  }
+  stop_id: "L24N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775998
+  }
+  departure {
+    time: 1520776028
+  }
+  stop_id: "L22N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776058
+  }
+  departure {
+    time: 1520776088
+  }
+  stop_id: "L21N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776148
+  }
+  departure {
+    time: 1520776178
+  }
+  stop_id: "L20N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776298
+  }
+  departure {
+    time: 1520776328
+  }
+  stop_id: "L19N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776388
+  }
+  departure {
+    time: 1520776418
+  }
+  stop_id: "L17N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776478
+  }
+  departure {
+    time: 1520776508
+  }
+  stop_id: "L16N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776568
+  }
+  departure {
+    time: 1520776598
+  }
+  stop_id: "L15N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776688
+  }
+  departure {
+    time: 1520776718
+  }
+  stop_id: "L14N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776808
+  }
+  departure {
+    time: 1520776838
+  }
+  stop_id: "L13N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776868
+  }
+  departure {
+    time: 1520776898
+  }
+  stop_id: "L12N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776958
+  }
+  departure {
+    time: 1520776988
+  }
+  stop_id: "L11N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777018
+  }
+  departure {
+    time: 1520777048
+  }
+  stop_id: "L10N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777108
+  }
+  departure {
+    time: 1520777138
+  }
+  stop_id: "L08N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777348
+  }
+  departure {
+    time: 1520777378
+  }
+  stop_id: "L06N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777408
+  }
+  departure {
+    time: 1520777438
+  }
+  stop_id: "L05N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777498
+  }
+  departure {
+    time: 1520777528
+  }
+  stop_id: "L03N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777588
+  }
+  departure {
+    time: 1520777618
+  }
+  stop_id: "L02N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777738
+  }
+  stop_id: "L01N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+
+trip {
+  trip_id: "058000_L..S"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0940 8AV/RPY\020\001\030\003"
+}
+stop_time_update {
+  departure {
+    time: 1520775600
+  }
+  stop_id: "L01S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520775660
+  }
+  departure {
+    time: 1520775690
+  }
+  stop_id: "L02S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520775750
+  }
+  departure {
+    time: 1520775780
+  }
+  stop_id: "L03S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520775810
+  }
+  departure {
+    time: 1520775840
+  }
+  stop_id: "L05S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520775870
+  }
+  departure {
+    time: 1520775900
+  }
+  stop_id: "L06S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776110
+  }
+  departure {
+    time: 1520776140
+  }
+  stop_id: "L08S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776230
+  }
+  departure {
+    time: 1520776260
+  }
+  stop_id: "L10S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776290
+  }
+  departure {
+    time: 1520776320
+  }
+  stop_id: "L11S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776380
+  }
+  departure {
+    time: 1520776410
+  }
+  stop_id: "L12S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776440
+  }
+  departure {
+    time: 1520776470
+  }
+  stop_id: "L13S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776560
+  }
+  departure {
+    time: 1520776590
+  }
+  stop_id: "L14S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776680
+  }
+  departure {
+    time: 1520776710
+  }
+  stop_id: "L15S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776770
+  }
+  departure {
+    time: 1520776800
+  }
+  stop_id: "L16S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776860
+  }
+  departure {
+    time: 1520776890
+  }
+  stop_id: "L17S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776950
+  }
+  departure {
+    time: 1520776980
+  }
+  stop_id: "L19S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777100
+  }
+  departure {
+    time: 1520777130
+  }
+  stop_id: "L20S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777190
+  }
+  departure {
+    time: 1520777220
+  }
+  stop_id: "L21S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777250
+  }
+  departure {
+    time: 1520777280
+  }
+  stop_id: "L22S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777310
+  }
+  departure {
+    time: 1520777340
+  }
+  stop_id: "L24S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777400
+  }
+  departure {
+    time: 1520777430
+  }
+  stop_id: "L25S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777460
+  }
+  departure {
+    time: 1520777490
+  }
+  stop_id: "L26S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777550
+  }
+  departure {
+    time: 1520777580
+  }
+  stop_id: "L27S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777670
+  }
+  departure {
+    time: 1520777700
+  }
+  stop_id: "L28S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777730
+  }
+  stop_id: "L29S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+
+trip {
+  trip_id: "058100_L..N"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0941 RPY/8AV\020\001\030\001"
+}
+stop_time_update {
+  departure {
+    time: 1520775660
+  }
+  stop_id: "L29N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775720
+  }
+  departure {
+    time: 1520775750
+  }
+  stop_id: "L28N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775840
+  }
+  departure {
+    time: 1520775870
+  }
+  stop_id: "L27N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520775930
+  }
+  departure {
+    time: 1520775960
+  }
+  stop_id: "L26N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776020
+  }
+  departure {
+    time: 1520776050
+  }
+  stop_id: "L25N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776110
+  }
+  departure {
+    time: 1520776140
+  }
+  stop_id: "L24N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776200
+  }
+  departure {
+    time: 1520776230
+  }
+  stop_id: "L22N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776260
+  }
+  departure {
+    time: 1520776290
+  }
+  stop_id: "L21N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776350
+  }
+  departure {
+    time: 1520776380
+  }
+  stop_id: "L20N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776500
+  }
+  departure {
+    time: 1520776530
+  }
+  stop_id: "L19N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776590
+  }
+  departure {
+    time: 1520776620
+  }
+  stop_id: "L17N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776680
+  }
+  departure {
+    time: 1520776710
+  }
+  stop_id: "L16N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776770
+  }
+  departure {
+    time: 1520776800
+  }
+  stop_id: "L15N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776890
+  }
+  departure {
+    time: 1520776920
+  }
+  stop_id: "L14N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777010
+  }
+  departure {
+    time: 1520777040
+  }
+  stop_id: "L13N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777070
+  }
+  departure {
+    time: 1520777100
+  }
+  stop_id: "L12N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777160
+  }
+  departure {
+    time: 1520777190
+  }
+  stop_id: "L11N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777220
+  }
+  departure {
+    time: 1520777250
+  }
+  stop_id: "L10N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777310
+  }
+  departure {
+    time: 1520777340
+  }
+  stop_id: "L08N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777550
+  }
+  departure {
+    time: 1520777580
+  }
+  stop_id: "L06N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777610
+  }
+  departure {
+    time: 1520777640
+  }
+  stop_id: "L05N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777700
+  }
+  departure {
+    time: 1520777730
+  }
+  stop_id: "L03N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777790
+  }
+  departure {
+    time: 1520777820
+  }
+  stop_id: "L02N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777940
+  }
+  stop_id: "L01N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+
+trip {
+  trip_id: "058600_L..S"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0946 8AV/RPY\020\001\030\003"
+}
+stop_time_update {
+  departure {
+    time: 1520775960
+  }
+  stop_id: "L01S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776020
+  }
+  departure {
+    time: 1520776050
+  }
+  stop_id: "L02S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776110
+  }
+  departure {
+    time: 1520776140
+  }
+  stop_id: "L03S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776170
+  }
+  departure {
+    time: 1520776200
+  }
+  stop_id: "L05S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776230
+  }
+  departure {
+    time: 1520776260
+  }
+  stop_id: "L06S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776470
+  }
+  departure {
+    time: 1520776500
+  }
+  stop_id: "L08S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776590
+  }
+  departure {
+    time: 1520776620
+  }
+  stop_id: "L10S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776650
+  }
+  departure {
+    time: 1520776680
+  }
+  stop_id: "L11S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776740
+  }
+  departure {
+    time: 1520776770
+  }
+  stop_id: "L12S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776800
+  }
+  departure {
+    time: 1520776830
+  }
+  stop_id: "L13S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776920
+  }
+  departure {
+    time: 1520776950
+  }
+  stop_id: "L14S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777040
+  }
+  departure {
+    time: 1520777070
+  }
+  stop_id: "L15S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777130
+  }
+  departure {
+    time: 1520777160
+  }
+  stop_id: "L16S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777220
+  }
+  departure {
+    time: 1520777250
+  }
+  stop_id: "L17S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777310
+  }
+  departure {
+    time: 1520777340
+  }
+  stop_id: "L19S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777460
+  }
+  departure {
+    time: 1520777490
+  }
+  stop_id: "L20S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777550
+  }
+  departure {
+    time: 1520777580
+  }
+  stop_id: "L21S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777610
+  }
+  departure {
+    time: 1520777640
+  }
+  stop_id: "L22S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777670
+  }
+  departure {
+    time: 1520777700
+  }
+  stop_id: "L24S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777760
+  }
+  departure {
+    time: 1520777790
+  }
+  stop_id: "L25S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777820
+  }
+  departure {
+    time: 1520777850
+  }
+  stop_id: "L26S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777910
+  }
+  departure {
+    time: 1520777940
+  }
+  stop_id: "L27S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778030
+  }
+  departure {
+    time: 1520778060
+  }
+  stop_id: "L28S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778090
+  }
+  stop_id: "L29S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+
+trip {
+  trip_id: "058700_L..N"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0947 RPY/8AV\020\000\030\001"
+}
+stop_time_update {
+  departure {
+    time: 1520776020
+  }
+  stop_id: "L29N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776080
+  }
+  departure {
+    time: 1520776110
+  }
+  stop_id: "L28N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776200
+  }
+  departure {
+    time: 1520776230
+  }
+  stop_id: "L27N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776290
+  }
+  departure {
+    time: 1520776320
+  }
+  stop_id: "L26N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776380
+  }
+  departure {
+    time: 1520776410
+  }
+  stop_id: "L25N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776470
+  }
+  departure {
+    time: 1520776500
+  }
+  stop_id: "L24N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776560
+  }
+  departure {
+    time: 1520776590
+  }
+  stop_id: "L22N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776620
+  }
+  departure {
+    time: 1520776650
+  }
+  stop_id: "L21N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776710
+  }
+  departure {
+    time: 1520776740
+  }
+  stop_id: "L20N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776860
+  }
+  departure {
+    time: 1520776890
+  }
+  stop_id: "L19N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776950
+  }
+  departure {
+    time: 1520776980
+  }
+  stop_id: "L17N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777040
+  }
+  departure {
+    time: 1520777070
+  }
+  stop_id: "L16N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777130
+  }
+  departure {
+    time: 1520777160
+  }
+  stop_id: "L15N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777250
+  }
+  departure {
+    time: 1520777280
+  }
+  stop_id: "L14N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777370
+  }
+  departure {
+    time: 1520777400
+  }
+  stop_id: "L13N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777430
+  }
+  departure {
+    time: 1520777460
+  }
+  stop_id: "L12N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777520
+  }
+  departure {
+    time: 1520777550
+  }
+  stop_id: "L11N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777580
+  }
+  departure {
+    time: 1520777610
+  }
+  stop_id: "L10N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777670
+  }
+  departure {
+    time: 1520777700
+  }
+  stop_id: "L08N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777910
+  }
+  departure {
+    time: 1520777940
+  }
+  stop_id: "L06N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777970
+  }
+  departure {
+    time: 1520778000
+  }
+  stop_id: "L05N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778060
+  }
+  departure {
+    time: 1520778090
+  }
+  stop_id: "L03N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778150
+  }
+  departure {
+    time: 1520778180
+  }
+  stop_id: "L02N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778300
+  }
+  stop_id: "L01N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+
+trip {
+  trip_id: "059200_L..S"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0952 8AV/RPY\020\000\030\003"
+}
+stop_time_update {
+  departure {
+    time: 1520776320
+  }
+  stop_id: "L01S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776380
+  }
+  departure {
+    time: 1520776410
+  }
+  stop_id: "L02S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776470
+  }
+  departure {
+    time: 1520776500
+  }
+  stop_id: "L03S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776530
+  }
+  departure {
+    time: 1520776560
+  }
+  stop_id: "L05S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776590
+  }
+  departure {
+    time: 1520776620
+  }
+  stop_id: "L06S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776830
+  }
+  departure {
+    time: 1520776860
+  }
+  stop_id: "L08S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776950
+  }
+  departure {
+    time: 1520776980
+  }
+  stop_id: "L10S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777010
+  }
+  departure {
+    time: 1520777040
+  }
+  stop_id: "L11S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777100
+  }
+  departure {
+    time: 1520777130
+  }
+  stop_id: "L12S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777160
+  }
+  departure {
+    time: 1520777190
+  }
+  stop_id: "L13S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777280
+  }
+  departure {
+    time: 1520777310
+  }
+  stop_id: "L14S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777400
+  }
+  departure {
+    time: 1520777430
+  }
+  stop_id: "L15S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777490
+  }
+  departure {
+    time: 1520777520
+  }
+  stop_id: "L16S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777580
+  }
+  departure {
+    time: 1520777610
+  }
+  stop_id: "L17S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777670
+  }
+  departure {
+    time: 1520777700
+  }
+  stop_id: "L19S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777820
+  }
+  departure {
+    time: 1520777850
+  }
+  stop_id: "L20S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777910
+  }
+  departure {
+    time: 1520777940
+  }
+  stop_id: "L21S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777970
+  }
+  departure {
+    time: 1520778000
+  }
+  stop_id: "L22S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778030
+  }
+  departure {
+    time: 1520778060
+  }
+  stop_id: "L24S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778120
+  }
+  departure {
+    time: 1520778150
+  }
+  stop_id: "L25S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778180
+  }
+  departure {
+    time: 1520778210
+  }
+  stop_id: "L26S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778270
+  }
+  departure {
+    time: 1520778300
+  }
+  stop_id: "L27S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778390
+  }
+  departure {
+    time: 1520778420
+  }
+  stop_id: "L28S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778450
+  }
+  stop_id: "L29S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+
+trip {
+  trip_id: "059300_L..N"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0953 RPY/8AV\020\000\030\001"
+}
+stop_time_update {
+  departure {
+    time: 1520776380
+  }
+  stop_id: "L29N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776440
+  }
+  departure {
+    time: 1520776470
+  }
+  stop_id: "L28N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776560
+  }
+  departure {
+    time: 1520776590
+  }
+  stop_id: "L27N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776650
+  }
+  departure {
+    time: 1520776680
+  }
+  stop_id: "L26N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776740
+  }
+  departure {
+    time: 1520776770
+  }
+  stop_id: "L25N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776830
+  }
+  departure {
+    time: 1520776860
+  }
+  stop_id: "L24N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776920
+  }
+  departure {
+    time: 1520776950
+  }
+  stop_id: "L22N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776980
+  }
+  departure {
+    time: 1520777010
+  }
+  stop_id: "L21N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777070
+  }
+  departure {
+    time: 1520777100
+  }
+  stop_id: "L20N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777220
+  }
+  departure {
+    time: 1520777250
+  }
+  stop_id: "L19N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777310
+  }
+  departure {
+    time: 1520777340
+  }
+  stop_id: "L17N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777400
+  }
+  departure {
+    time: 1520777430
+  }
+  stop_id: "L16N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777490
+  }
+  departure {
+    time: 1520777520
+  }
+  stop_id: "L15N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777610
+  }
+  departure {
+    time: 1520777640
+  }
+  stop_id: "L14N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777730
+  }
+  departure {
+    time: 1520777760
+  }
+  stop_id: "L13N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777790
+  }
+  departure {
+    time: 1520777820
+  }
+  stop_id: "L12N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777880
+  }
+  departure {
+    time: 1520777910
+  }
+  stop_id: "L11N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777940
+  }
+  departure {
+    time: 1520777970
+  }
+  stop_id: "L10N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778030
+  }
+  departure {
+    time: 1520778060
+  }
+  stop_id: "L08N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778270
+  }
+  departure {
+    time: 1520778300
+  }
+  stop_id: "L06N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778330
+  }
+  departure {
+    time: 1520778360
+  }
+  stop_id: "L05N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778420
+  }
+  departure {
+    time: 1520778450
+  }
+  stop_id: "L03N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778510
+  }
+  departure {
+    time: 1520778540
+  }
+  stop_id: "L02N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778660
+  }
+  stop_id: "L01N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+
+trip {
+  trip_id: "059800_L..S"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0958 8AV/RPY\020\000\030\003"
+}
+stop_time_update {
+  departure {
+    time: 1520776680
+  }
+  stop_id: "L01S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776740
+  }
+  departure {
+    time: 1520776770
+  }
+  stop_id: "L02S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776830
+  }
+  departure {
+    time: 1520776860
+  }
+  stop_id: "L03S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776890
+  }
+  departure {
+    time: 1520776920
+  }
+  stop_id: "L05S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520776950
+  }
+  departure {
+    time: 1520776980
+  }
+  stop_id: "L06S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777190
+  }
+  departure {
+    time: 1520777220
+  }
+  stop_id: "L08S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777310
+  }
+  departure {
+    time: 1520777340
+  }
+  stop_id: "L10S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777370
+  }
+  departure {
+    time: 1520777400
+  }
+  stop_id: "L11S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777460
+  }
+  departure {
+    time: 1520777490
+  }
+  stop_id: "L12S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777520
+  }
+  departure {
+    time: 1520777550
+  }
+  stop_id: "L13S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777640
+  }
+  departure {
+    time: 1520777670
+  }
+  stop_id: "L14S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777760
+  }
+  departure {
+    time: 1520777790
+  }
+  stop_id: "L15S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777850
+  }
+  departure {
+    time: 1520777880
+  }
+  stop_id: "L16S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777940
+  }
+  departure {
+    time: 1520777970
+  }
+  stop_id: "L17S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778030
+  }
+  departure {
+    time: 1520778060
+  }
+  stop_id: "L19S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778180
+  }
+  departure {
+    time: 1520778210
+  }
+  stop_id: "L20S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778270
+  }
+  departure {
+    time: 1520778300
+  }
+  stop_id: "L21S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778330
+  }
+  departure {
+    time: 1520778360
+  }
+  stop_id: "L22S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778390
+  }
+  departure {
+    time: 1520778420
+  }
+  stop_id: "L24S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778480
+  }
+  departure {
+    time: 1520778510
+  }
+  stop_id: "L25S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778540
+  }
+  departure {
+    time: 1520778570
+  }
+  stop_id: "L26S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778630
+  }
+  departure {
+    time: 1520778660
+  }
+  stop_id: "L27S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778750
+  }
+  departure {
+    time: 1520778780
+  }
+  stop_id: "L28S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778810
+  }
+  stop_id: "L29S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+
+trip {
+  trip_id: "059900_L..N"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 0959 RPY/8AV\020\000\030\001"
+}
+stop_time_update {
+  departure {
+    time: 1520776740
+  }
+  stop_id: "L29N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776800
+  }
+  departure {
+    time: 1520776830
+  }
+  stop_id: "L28N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520776920
+  }
+  departure {
+    time: 1520776950
+  }
+  stop_id: "L27N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777010
+  }
+  departure {
+    time: 1520777040
+  }
+  stop_id: "L26N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777100
+  }
+  departure {
+    time: 1520777130
+  }
+  stop_id: "L25N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777190
+  }
+  departure {
+    time: 1520777220
+  }
+  stop_id: "L24N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777280
+  }
+  departure {
+    time: 1520777310
+  }
+  stop_id: "L22N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777340
+  }
+  departure {
+    time: 1520777370
+  }
+  stop_id: "L21N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777430
+  }
+  departure {
+    time: 1520777460
+  }
+  stop_id: "L20N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777580
+  }
+  departure {
+    time: 1520777610
+  }
+  stop_id: "L19N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777670
+  }
+  departure {
+    time: 1520777700
+  }
+  stop_id: "L17N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777760
+  }
+  departure {
+    time: 1520777790
+  }
+  stop_id: "L16N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777850
+  }
+  departure {
+    time: 1520777880
+  }
+  stop_id: "L15N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777970
+  }
+  departure {
+    time: 1520778000
+  }
+  stop_id: "L14N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778090
+  }
+  departure {
+    time: 1520778120
+  }
+  stop_id: "L13N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778150
+  }
+  departure {
+    time: 1520778180
+  }
+  stop_id: "L12N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778240
+  }
+  departure {
+    time: 1520778270
+  }
+  stop_id: "L11N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778300
+  }
+  departure {
+    time: 1520778330
+  }
+  stop_id: "L10N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778390
+  }
+  departure {
+    time: 1520778420
+  }
+  stop_id: "L08N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778630
+  }
+  departure {
+    time: 1520778660
+  }
+  stop_id: "L06N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778690
+  }
+  departure {
+    time: 1520778720
+  }
+  stop_id: "L05N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778780
+  }
+  departure {
+    time: 1520778810
+  }
+  stop_id: "L03N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778870
+  }
+  departure {
+    time: 1520778900
+  }
+  stop_id: "L02N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520779020
+  }
+  stop_id: "L01N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+
+trip {
+  trip_id: "060400_L..S"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 1004 8AV/RPY\020\000\030\003"
+}
+stop_time_update {
+  departure {
+    time: 1520777040
+  }
+  stop_id: "L01S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777100
+  }
+  departure {
+    time: 1520777130
+  }
+  stop_id: "L02S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777190
+  }
+  departure {
+    time: 1520777220
+  }
+  stop_id: "L03S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777250
+  }
+  departure {
+    time: 1520777280
+  }
+  stop_id: "L05S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777310
+  }
+  departure {
+    time: 1520777340
+  }
+  stop_id: "L06S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777550
+  }
+  departure {
+    time: 1520777580
+  }
+  stop_id: "L08S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777670
+  }
+  departure {
+    time: 1520777700
+  }
+  stop_id: "L10S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777730
+  }
+  departure {
+    time: 1520777760
+  }
+  stop_id: "L11S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777820
+  }
+  departure {
+    time: 1520777850
+  }
+  stop_id: "L12S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520777880
+  }
+  departure {
+    time: 1520777910
+  }
+  stop_id: "L13S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778000
+  }
+  departure {
+    time: 1520778030
+  }
+  stop_id: "L14S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778120
+  }
+  departure {
+    time: 1520778150
+  }
+  stop_id: "L15S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778210
+  }
+  departure {
+    time: 1520778240
+  }
+  stop_id: "L16S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778300
+  }
+  departure {
+    time: 1520778330
+  }
+  stop_id: "L17S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778390
+  }
+  departure {
+    time: 1520778420
+  }
+  stop_id: "L19S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778540
+  }
+  departure {
+    time: 1520778570
+  }
+  stop_id: "L20S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778630
+  }
+  departure {
+    time: 1520778660
+  }
+  stop_id: "L21S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778690
+  }
+  departure {
+    time: 1520778720
+  }
+  stop_id: "L22S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778780
+  }
+  departure {
+    time: 1520778810
+  }
+  stop_id: "L24S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778870
+  }
+  departure {
+    time: 1520778900
+  }
+  stop_id: "L25S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520778930
+  }
+  departure {
+    time: 1520778960
+  }
+  stop_id: "L26S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520779020
+  }
+  departure {
+    time: 1520779050
+  }
+  stop_id: "L27S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520779140
+  }
+  departure {
+    time: 1520779170
+  }
+  stop_id: "L28S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+stop_time_update {
+  arrival {
+    time: 1520779200
+  }
+  stop_id: "L29S"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0011\022\0011"
+}
+
+trip {
+  trip_id: "060500_L..N"
+  start_date: "20180311"
+  route_id: "L"
+  1001: "\n\0170L 1005 RPY/8AV\020\000\030\001"
+}
+stop_time_update {
+  departure {
+    time: 1520777100
+  }
+  stop_id: "L29N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777160
+  }
+  departure {
+    time: 1520777190
+  }
+  stop_id: "L28N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777280
+  }
+  departure {
+    time: 1520777310
+  }
+  stop_id: "L27N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777370
+  }
+  departure {
+    time: 1520777400
+  }
+  stop_id: "L26N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777460
+  }
+  departure {
+    time: 1520777490
+  }
+  stop_id: "L25N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777550
+  }
+  departure {
+    time: 1520777580
+  }
+  stop_id: "L24N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777640
+  }
+  departure {
+    time: 1520777670
+  }
+  stop_id: "L22N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777700
+  }
+  departure {
+    time: 1520777730
+  }
+  stop_id: "L21N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777790
+  }
+  departure {
+    time: 1520777820
+  }
+  stop_id: "L20N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520777940
+  }
+  departure {
+    time: 1520777970
+  }
+  stop_id: "L19N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778030
+  }
+  departure {
+    time: 1520778060
+  }
+  stop_id: "L17N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778120
+  }
+  departure {
+    time: 1520778150
+  }
+  stop_id: "L16N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778210
+  }
+  departure {
+    time: 1520778240
+  }
+  stop_id: "L15N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778330
+  }
+  departure {
+    time: 1520778360
+  }
+  stop_id: "L14N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778450
+  }
+  departure {
+    time: 1520778480
+  }
+  stop_id: "L13N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778510
+  }
+  departure {
+    time: 1520778540
+  }
+  stop_id: "L12N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778600
+  }
+  departure {
+    time: 1520778630
+  }
+  stop_id: "L11N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778660
+  }
+  departure {
+    time: 1520778690
+  }
+  stop_id: "L10N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778750
+  }
+  departure {
+    time: 1520778780
+  }
+  stop_id: "L08N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520778990
+  }
+  departure {
+    time: 1520779020
+  }
+  stop_id: "L06N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520779050
+  }
+  departure {
+    time: 1520779080
+  }
+  stop_id: "L05N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520779140
+  }
+  departure {
+    time: 1520779170
+  }
+  stop_id: "L03N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520779230
+  }
+  departure {
+    time: 1520779260
+  }
+  stop_id: "L02N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+stop_time_update {
+  arrival {
+    time: 1520779380
+  }
+  stop_id: "L01N"
+  schedule_relationship: SCHEDULED
+  1001: "\n\0012\022\0012"
+}
+
