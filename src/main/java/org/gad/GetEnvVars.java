@@ -14,8 +14,10 @@ import java.util.Properties;
 public class GetEnvVars {
 
     Properties props = new Properties();
+    LambdaLogger logger;
 
     public GetEnvVars(LambdaLogger logger) {
+        this.logger = logger;
         String fname = System.getProperty("user.home") + File.separator + ".keys" + File.separator + "keyfile";
         Path p = Paths.get(fname);
         try {
@@ -29,8 +31,10 @@ public class GetEnvVars {
 
     public String getVar(String key) {
         if (props.containsKey(key)) {
+            logger.log(String.format("found key %s in local keystore.", key));
             return props.getProperty(key);
         } else {
+            logger.log(String.format("found key %s in environment.", key));
             return System.getenv(key);
         }
     }
