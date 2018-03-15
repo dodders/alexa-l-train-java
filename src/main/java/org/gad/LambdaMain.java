@@ -19,7 +19,8 @@ public class LambdaMain {
 
     public String mainHandler(Object event, Context ctx) {
         LambdaLogger logger = ctx.getLogger();
-        String mtaKey = System.getenv("mtakey");
+        GetEnvVars envVars = new GetEnvVars(logger);
+        String mtaKey = envVars.getVar("mtakey");
         LocalDateTime currTime = LocalDateTime.now(ZoneId.of("UTC"));
         logger.log("mainHandler invoked with: " + event.toString());
         if (mtaKey != null) {
