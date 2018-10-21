@@ -1,4 +1,4 @@
 #!/bin/sh
 
-ask simulate -t 'alexa ask greeter to say hi' -s amzn1.ask.skill.20b65409-b2e1-4aab-9c9b-613905d60795 -l en-US
+ask simulate -t 'alexa my train' -s amzn1.ask.skill.7161c97f-55d2-41ef-9738-33a1d0a4b613 -l en-US
 

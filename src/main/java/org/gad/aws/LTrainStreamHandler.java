@@ -22,6 +22,7 @@ public class LTrainStreamHandler extends SkillStreamHandler {
 
     public LTrainStreamHandler() {
         super(getSkill());
+        log.info("starting...");
     }
 
 }

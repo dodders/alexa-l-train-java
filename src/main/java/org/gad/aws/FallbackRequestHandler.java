@@ -27,7 +27,7 @@ public class FallbackRequestHandler implements RequestHandler {
         String text = "Fallback response too!";
         return handlerInput.getResponseBuilder()
                 .withSpeech(text)
-                .withReprompt(text)
+                .withShouldEndSession(true)
                 .build();
     }
 }

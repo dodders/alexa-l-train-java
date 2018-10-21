@@ -26,7 +26,7 @@ public class HelloWorldHandler implements RequestHandler {
         log.info("handling request " + handlerInput.toString());
         return handlerInput.getResponseBuilder()
                 .withSpeech(text)
-                .withReprompt(text)
+                .withShouldEndSession(true)
                 .build();
     }
 }

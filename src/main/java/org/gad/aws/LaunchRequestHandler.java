@@ -26,7 +26,7 @@ public class LaunchRequestHandler implements RequestHandler {
         String text = "greeter launch request!";
         return handlerInput.getResponseBuilder()
                 .withSpeech(text)
-                .withReprompt(text)
+                .withShouldEndSession(true)
                 .build();
     }
 }
