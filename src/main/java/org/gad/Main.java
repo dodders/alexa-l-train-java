@@ -1,5 +1,8 @@
 package org.gad;
 
+import org.gad.aws.LambdaMain;
+import org.gad.aws.MyContext;
+
 import java.util.logging.Logger;
 
 public class Main {

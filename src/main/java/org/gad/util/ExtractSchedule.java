@@ -1,11 +1,10 @@
-package org.gad;
+package org.gad.util;
 
 import com.google.protobuf.CodedOutputStream;
 import com.google.transit.realtime.GtfsRealtime;
 
 import java.io.*;
 import java.net.URL;
-import java.net.URLConnection;
 import java.nio.charset.Charset;
 import java.nio.file.*;
 

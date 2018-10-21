@@ -1,12 +1,14 @@
-package org.gad;
+package org.gad.aws;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.LambdaLogger;
 import com.google.transit.realtime.GtfsRealtime;
+import org.gad.dal.DataProvider;
+import org.gad.dal.FeedMessageHandler;
+import org.gad.util.GetEnvVars;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
-import java.net.URL;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.List;
@@ -49,10 +51,10 @@ public class LambdaMain {
             return ret.toString();
         } catch (MalformedURLException e) {
             logger.log("invalid URL: " + e.getMessage());
-            return "Sorry I couldn't connect to the MTA";
+            return "Sorry, I can't connect to the MTA";
         } catch (IOException e) {
             logger.log("error parsing MTA data:" + e.getMessage());
-            return "Couldn't parse MTA data";
+            return "Sorry, I don't understand the MTA data";
         }
     }
 }

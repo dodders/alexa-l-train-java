@@ -1,7 +1,7 @@
-package com.gad;
+package com.gad.util;
 
-import org.gad.GetEnvVars;
-import org.gad.MyContext;
+import org.gad.util.GetEnvVars;
+import org.gad.aws.MyContext;
 import org.junit.Test;
 
 import static org.junit.Assert.assertNotNull;

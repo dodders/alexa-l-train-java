@@ -1,21 +1,16 @@
-package com.gad;
+package com.gad.dal;
 
 import com.google.protobuf.CodedInputStream;
 import com.google.transit.realtime.GtfsRealtime;
-import org.gad.FeedMessageHandler;
-import org.gad.MyContext;
+import org.gad.dal.FeedMessageHandler;
+import org.gad.aws.MyContext;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.time.Duration;
 import java.time.LocalDateTime;
-import java.time.ZoneId;
 import java.time.ZoneOffset;
-import java.time.temporal.ChronoUnit;
-import java.time.temporal.TemporalField;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Logger;

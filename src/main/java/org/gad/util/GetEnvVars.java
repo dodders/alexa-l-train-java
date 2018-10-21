@@ -1,4 +1,4 @@
-package org.gad;
+package org.gad.util;
 
 import com.amazonaws.services.lambda.runtime.LambdaLogger;
 

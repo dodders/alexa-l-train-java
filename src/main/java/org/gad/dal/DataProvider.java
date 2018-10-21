@@ -1,4 +1,4 @@
-package org.gad;
+package org.gad.dal;
 
 import com.google.transit.realtime.GtfsRealtime;
 

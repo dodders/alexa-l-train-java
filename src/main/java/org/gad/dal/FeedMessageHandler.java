@@ -1,12 +1,10 @@
-package org.gad;
+package org.gad.dal;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.LambdaLogger;
 import com.google.transit.realtime.GtfsRealtime;
-import org.apache.log4j.Logger;
 
 import java.time.LocalDateTime;
-import java.time.ZoneId;
 import java.time.ZoneOffset;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
