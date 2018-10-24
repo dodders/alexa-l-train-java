@@ -1,6 +1,7 @@
 package org.gad.util;
 
-import com.amazonaws.services.lambda.runtime.LambdaLogger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,31 +12,22 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.Properties;
 
+import static java.lang.String.format;
+
 public class GetEnvVars {
 
-    Properties props = new Properties();
-    LambdaLogger logger;
-
-    public GetEnvVars(LambdaLogger logger) {
-        this.logger = logger;
-        String fname = System.getProperty("user.home") + File.separator + ".keys" + File.separator + "keyfile";
-        Path p = Paths.get(fname);
-        try {
-            InputStream is = Files.newInputStream(p, StandardOpenOption.READ);
-            props.load(is);
-            logger.log(props.entrySet().size() + " props loaded from " + fname);
-        } catch (IOException e) {
-            logger.log("did not load properties from file:" + e.getMessage());
-        }
-    }
+    Logger log = LogManager.getLogger(this.getClass());
 
     public String getVar(String key) {
-        if (props.containsKey(key)) {
-            logger.log(String.format("found key %s in local keystore.", key));
-            return props.getProperty(key);
+        if (key == null) {
+            return null;
+        }
+        String envVar = System.getenv(key);
+        if (envVar == null) {
+            log.info(format("didn't find key %s in environment variables.", key));
+            return null;
         } else {
-            logger.log(String.format("found key %s in environment.", key));
-            return System.getenv(key);
+            return envVar;
         }
     }
 }

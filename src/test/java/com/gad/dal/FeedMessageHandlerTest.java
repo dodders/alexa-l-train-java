@@ -3,7 +3,6 @@ package com.gad.dal;
 import com.google.protobuf.CodedInputStream;
 import com.google.transit.realtime.GtfsRealtime;
 import org.gad.dal.FeedMessageHandler;
-import org.gad.aws.MyContext;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -29,7 +28,7 @@ public class FeedMessageHandlerTest {
         FeedMessageHandler fmh = new FeedMessageHandler();
         //curr time is 2018/3/10 19:50:00
         LocalDateTime currTime = LocalDateTime.ofEpochSecond(1520711400, 0, ZoneOffset.UTC);
-        List<Long> ret = fmh.getArrivalTimes(msg, currTime, stop, new MyContext());
+        List<Long> ret = fmh.getArrivalTimes(msg, currTime, stop);
         assertEquals(expected, ret);
     }
 

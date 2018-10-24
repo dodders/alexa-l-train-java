@@ -10,7 +10,7 @@ import java.nio.file.*;
 
 public class ExtractSchedule {
 
-    final String address = "http://datamine.mta.info/mta_esi.php?key=9a707b925e75f2830938dba89a0c62f2&feed_id=2";
+    final String address = "http://datamine.mta.info/mta_esi.php?feed_id=2&key=";
 
     public static void main(String[] args) throws IOException {
         ExtractSchedule me = new ExtractSchedule();
@@ -19,7 +19,9 @@ public class ExtractSchedule {
 
     private void go() throws IOException {
         System.out.println("running...");
-        URL url = new URL(address);
+        GetEnvVars vars = new GetEnvVars();
+        String key = vars.getVar("mtakey");
+        URL url = new URL(address + key);
         InputStream is = url.openStream();
         GtfsRealtime.FeedMessage feed = GtfsRealtime.FeedMessage.parseFrom(is);
         is.close();

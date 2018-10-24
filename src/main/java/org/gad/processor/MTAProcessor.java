@@ -1,8 +1,10 @@
-package org.gad.aws;
+package org.gad.processor;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.LambdaLogger;
 import com.google.transit.realtime.GtfsRealtime;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.gad.dal.DataProvider;
 import org.gad.dal.FeedMessageHandler;
 import org.gad.util.GetEnvVars;
@@ -13,26 +15,23 @@ import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.List;
 
-public class LambdaMain {
+public class MTAProcessor {
 
     DataProvider dataProvider = new DataProvider();
     FeedMessageHandler fmh = new FeedMessageHandler();
     final private String bedfordStop = "L08N";
+    Logger log = LogManager.getLogger(this.getClass());
+    GetEnvVars envVars = new GetEnvVars();
 
-    public String mainHandler(Object event, Context ctx) {
-        LambdaLogger logger = ctx.getLogger();
-        GetEnvVars envVars = new GetEnvVars(logger);
-        String mtaKey = envVars.getVar("mtakey");
+    public String getTrainTimes() throws Exception {
         LocalDateTime currTime = LocalDateTime.now(ZoneId.of("UTC"));
-        logger.log("mainHandler invoked with: " + event.toString());
-        if (mtaKey != null) {
-            logger.log("mta key found!");
-        } else {
-            return "Could not find MTA key.";
+        String mtaKey = envVars.getVar("mtakey");
+        if (mtaKey == null) {
+            throw new Exception("couldn't find MTA key.");
         }
         try {
             GtfsRealtime.FeedMessage feed = dataProvider.getFeedData(mtaKey);
-            List<Long> diffs = fmh.getArrivalTimes(feed, currTime, bedfordStop, ctx);
+            List<Long> diffs = fmh.getArrivalTimes(feed, currTime, bedfordStop);
             StringBuffer ret = new StringBuffer();
             if (diffs.size() < 1) {
                 ret.append("Did not find any L train arrival times.");
@@ -47,13 +46,13 @@ public class LambdaMain {
                 ret.append(" and ").append(diffs.get(diffs.size() - 1));
                 ret.append(" minutes.");
             }
-            logger.log(ret.toString());
+            log.info(ret.toString());
             return ret.toString();
         } catch (MalformedURLException e) {
-            logger.log("invalid URL: " + e.getMessage());
+            log.info("invalid URL: " + e.getMessage());
             return "Sorry, I can't connect to the MTA";
         } catch (IOException e) {
-            logger.log("error parsing MTA data:" + e.getMessage());
+            log.info("error parsing MTA data:" + e.getMessage());
             return "Sorry, I don't understand the MTA data";
         }
     }

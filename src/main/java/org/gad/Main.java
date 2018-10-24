@@ -1,7 +1,6 @@
 package org.gad;
 
-import org.gad.aws.LambdaMain;
-import org.gad.aws.MyContext;
+import org.gad.processor.MTAProcessor;
 
 import java.util.logging.Logger;
 
@@ -9,16 +8,16 @@ public class Main {
 
     Logger log = Logger.getLogger(this.getClass().getName());
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Main m = new Main();
         m.go();
     }
 
-    private void go() {
+    private void go() throws Exception {
         log.info("starting...");
 
-        LambdaMain lambda = new LambdaMain();
-        lambda.mainHandler("event", new MyContext());
+        MTAProcessor processor = new MTAProcessor();
+        processor.getTrainTimes();
     }
 
 }
