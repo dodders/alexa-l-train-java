@@ -7,12 +7,14 @@ import com.amazon.ask.model.Response;
 import com.amazon.ask.request.Predicates;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.gad.processor.MTAProcessor;
 
 import java.util.Optional;
 
 public class LaunchRequestHandler implements RequestHandler {
 
     Logger log = LogManager.getLogger(this.getClass());
+    MTAProcessor processor = new MTAProcessor();
 
     @Override
     public boolean canHandle(HandlerInput handlerInput) {
@@ -23,9 +25,10 @@ public class LaunchRequestHandler implements RequestHandler {
     @Override
     public Optional<Response> handle(HandlerInput handlerInput) {
         log.info("handle fired with " + handlerInput.getRequestEnvelope().getRequest().toString());
-        String text = "greeter launch request!";
+        String text = processor.getTrainTimes(); //should return a text response even if the MTA calls don't work.
+        log.info("returning speech:" + text);
         return handlerInput.getResponseBuilder()
-                .withSpeech(text)
+                .withSpeech("hello world.")
                 .withShouldEndSession(true)
                 .build();
     }

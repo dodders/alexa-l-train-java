@@ -23,20 +23,20 @@ public class MTAProcessor {
     Logger log = LogManager.getLogger(this.getClass());
     GetEnvVars envVars = new GetEnvVars();
 
-    public String getTrainTimes() throws Exception {
+    public String getTrainTimes() {
         LocalDateTime currTime = LocalDateTime.now(ZoneId.of("UTC"));
         String mtaKey = envVars.getVar("mtakey");
         if (mtaKey == null) {
-            throw new Exception("couldn't find MTA key.");
+            return "Sorry, I couldn't log into the MTA.";
         }
         try {
             GtfsRealtime.FeedMessage feed = dataProvider.getFeedData(mtaKey);
             List<Long> diffs = fmh.getArrivalTimes(feed, currTime, bedfordStop);
             StringBuffer ret = new StringBuffer();
             if (diffs.size() < 1) {
-                ret.append("Did not find any L train arrival times.");
+                ret.append("Sorry I did not find any L train times.");
             } else {
-                ret.append("The next L trains at Bedford Avenue will leave in ");
+                ret.append("The next L trains leave in ");
                 for (int i = 0; i < diffs.size() - 1; i++) {
                     if (i > 0) {
                         ret.append(" ,");
