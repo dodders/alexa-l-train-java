@@ -25,10 +25,10 @@ public class LaunchRequestHandler implements RequestHandler {
     @Override
     public Optional<Response> handle(HandlerInput handlerInput) {
         log.info("handle fired with " + handlerInput.getRequestEnvelope().getRequest().toString());
-        String text = processor.getTrainTimes(); //should return a text response even if the MTA calls don't work.
-        log.info("returning speech:" + text);
+        String response = processor.getTrainTimes(); //should return a text response even if the MTA calls don't work.
+        log.info("returning speech:" + response);
         return handlerInput.getResponseBuilder()
-                .withSpeech("hello world.")
+                .withSpeech(response)
                 .withShouldEndSession(true)
                 .build();
     }
