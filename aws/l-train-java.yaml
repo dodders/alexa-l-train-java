@@ -1,0 +1,24 @@
+﻿AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: An AWS Serverless Specification template describing your function.
+Parameters:
+  mtakey:
+    Type: String
+Resources:
+  ltrainjava2:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: 'org.gad.aws.LTrainStreamHandler::handleRequest'
+      Runtime: java8
+      CodeUri: .
+      Description: ''
+      MemorySize: 512
+      Timeout: 30
+      Role: 'arn:aws:iam::397678393215:role/alexa-l-train-role'
+      Events:
+        AlexaSkillEvent:
+          Type: AlexaSkill
+      Environment:
+        Variables:
+          mtakey:
+            Ref: mtakey
